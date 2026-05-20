@@ -1,0 +1,43 @@
+{
+  "name": "lyrajs_api",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "start": "tsx src/server.ts",
+    "build": "tsc && tsc-alias --resolve-full-paths",
+    "serve": "node dist/src/server.js",
+    "maestro": "maestro"
+  },
+  "dependencies": {
+    "@lyra-js/core": "^2.3.0",
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "esbuild": "^0.27.2",
+    "inquirer": "^12.7.0",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^2.1.1",
+    "mysql2": "^3.14.1",
+    "nodemailer": "^7.0.7",
+    "reflect-metadata": "^0.2.2",
+    "tsc-alias": "^1.8.17",
+    "tsx": "^4.19.4",
+    "typescript": "^5.7.3",
+    "yaml": "^2.8.0"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/cors": "^2.8.18",
+    "@types/jsonwebtoken": "^9.0.9",
+    "@types/multer": "^2.1.0",
+    "@types/node": "^22.15.17",
+    "@types/nodemailer": "^6.4.17",
+    "@typescript-eslint/eslint-plugin": "^8.23.0",
+    "@typescript-eslint/parser": "^8.23.0",
+    "eslint": "^9.20.0",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-prettier": "^5.2.3",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "typescript-eslint": "^8.23.0"
+  }
+}

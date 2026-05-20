@@ -1,0 +1,113 @@
+import {
+  AccessControl,
+  Controller,
+  Delete,
+  Get,
+  isAuthenticated,
+  Patch,
+  Post,
+  Route,
+  UnauthorizedException,
+  ValidationException,
+  Validator
+} from "@lyra-js/core"
+
+import { User } from "@entity/User"
+
+@Route({ path: "/user", middlewares: [isAuthenticated] })
+export class UserController extends Controller {
+  @Get({ path: "/" })
+  async list(): Promise<void> {
+    try {
+      const users = (await this.userRepository.findAll()).map((user: User) => {
+        const { password: _password, ...userWithoutPassword } = user
+        return userWithoutPassword
+      })
+      return this.res.status(200).json({ message: "Users fetched successfully", users })
+    } catch (error) {
+      return this.next(error)
+    }
+  }
+
+  @Get({ path: "/:user", resolve: { user: User } })
+  async read(user: User) {
+    try {
+      const { password: _password, ...userWithoutPassword } = user
+      return this.res.status(200).json({ message: "User fetched successfully", user: userWithoutPassword })
+    } catch (error) {
+      return this.next(error)
+    }
+  }
+
+  @Post({ path: "/" })
+  async create() {
+    try {
+      const { data }: { data: User } = this.req.body
+
+      if (!data.email || !data.password) {
+        new ValidationException("All fields are required.")
+      }
+
+      if (!Validator.isEmailValid(data.email)) {
+        new ValidationException("Invalid email format.")
+      }
+
+      if (!Validator.isPasswordValid(data.password)) {
+        new ValidationException(
+          "Password is too weak. It must be 10 characters long, including at least 1 lowercase, 1 uppercase, 1 number and 1 special character."
+        )
+      }
+
+      const isEmailUsed = await this.userRepository.findOneBy({ email: data.email })
+      if (isEmailUsed) {
+        throw new Error("Email already in use")
+      }
+
+      const user = new User()
+      const hashedPassword = await this.bcrypt.hash(data.password, 10)
+
+      user.email = data.email
+      user.password = hashedPassword
+      user.role = "ROLE_USER"
+
+      await this.userRepository.save(user)
+      return this.res.status(201).json({ message: "User created successfully" })
+    } catch (error) {
+      return this.next(error)
+    }
+  }
+
+  @Patch({ path: "/:user", resolve: { user: User } })
+  async update(user: User) {
+    try {
+      const { data }: { data: User } = this.req.body
+      if (!user) return this.res.status(404).json({ message: "User not found" })
+      if (!AccessControl.isOwner(this.req.user, user.id) && !AccessControl.hasRoleHigherThan(this.req.user, user.role))
+        throw new UnauthorizedException()
+
+      const { password: _password, email: _email, role, ...updateData } = data
+      const finalData = AccessControl.hasRoleHigherThan(this.req.user, user.role) ? updateData : { ...updateData, role }
+
+      await this.userRepository.save(finalData)
+      return this.res.status(200).json({ message: "User updated successfully" })
+    } catch (error) {
+      return this.next(error)
+    }
+  }
+
+  @Delete({ path: "/:id" })
+  async delete() {
+    try {
+      const { id } = this.req.params
+      const user = await this.userRepository.find(id)
+      if (!user) return this.res.status(404).json({ message: "User not found" })
+      if (!AccessControl.isOwner(this.req.user, user.id) && !AccessControl.hasRoleHigherThan(this.req.user, user.role))
+        throw new UnauthorizedException()
+      if (!user?.id) this.res.status(400).json({ message: "Invalid user id" })
+      if (user?.id && id) await this.userRepository.delete(id)
+      return this.res.status(200).json({ message: "User deleted successfully" })
+    } catch (error) {
+      return this.next(error)
+    }
+  }
+}

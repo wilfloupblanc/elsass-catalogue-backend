@@ -14,6 +14,7 @@ let Circuits = class Circuits extends Entity {
         this.photo_url = null;
         this.length_m = null;
         this.country = null;
+        this.country_code = null;
         this.difficulty = null;
         this.is_active = true;
         this.created_at = new Date();
@@ -39,6 +40,10 @@ __decorate([
     Column({ type: "varchar", size: 100, nullable: true }),
     __metadata("design:type", Object)
 ], Circuits.prototype, "country", void 0);
+__decorate([
+    Column({ type: "varchar", size: 2, nullable: true }),
+    __metadata("design:type", Object)
+], Circuits.prototype, "country_code", void 0);
 __decorate([
     Column({ type: "tinyint", nullable: true }),
     __metadata("design:type", Object)

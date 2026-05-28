@@ -1,7 +1,6 @@
 import { Column, Entity, Table } from "@lyra-js/core"
-
 @Table()
-export class FoodItems extends Entity<FoodItems> {
+export class DrinkItems extends Entity<DrinkItems> {
   @Column({ type: "bigint", pk: true })
   id: number
   @Column({ type: "bigint" })
@@ -24,7 +23,7 @@ export class FoodItems extends Entity<FoodItems> {
   is_active: boolean = true
   @Column({ type: "timestamp" })
   created_at: string | Date = new Date()
-  constructor(fooditems?: Partial<FoodItems> | FoodItems) {
-    super(fooditems)
+  constructor(drinkitems?: Partial<DrinkItems> | DrinkItems) {
+    super(drinkitems)
   }
 }

@@ -18,6 +18,7 @@ let Vehicles = class Vehicles extends Entity {
         this.torque = null;
         this.power_to_weight = null;
         this.country = null;
+        this.country_code = null;
         this.year = null;
         this.difficulty = null;
         this.is_active = true;
@@ -64,6 +65,10 @@ __decorate([
     Column({ type: "varchar", size: 100, nullable: true }),
     __metadata("design:type", Object)
 ], Vehicles.prototype, "country", void 0);
+__decorate([
+    Column({ type: "varchar", size: 2, nullable: true }),
+    __metadata("design:type", Object)
+], Vehicles.prototype, "country_code", void 0);
 __decorate([
     Column({ type: "int", nullable: true }),
     __metadata("design:type", Object)

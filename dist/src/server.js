@@ -1,5 +1,5 @@
 import "reflect-metadata";
-import { Config, createServer, isAuthenticated, LyraConsole, SecurityConfig } from "@lyra-js/core";
+import { Config, createServer, LyraConsole, SecurityConfig } from "@lyra-js/core";
 import { router } from "./router/index.js";
 import bcrypt from "bcrypt";
 import * as dotenv from "dotenv";
@@ -47,7 +47,6 @@ app.use((req, res, next) => {
 app.serveStatic("/assets", {
     root: "public/assets"
 });
-app.use("/uploads", isAuthenticated);
 app.serveStatic(base_path + "/uploads", {
     root: "uploads"
 });

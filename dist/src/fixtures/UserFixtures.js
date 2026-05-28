@@ -5,8 +5,8 @@ export class UserFixtures extends Fixture {
         super(...arguments);
         this.users = [
             {
-                email: "zaugjulien@gmail.com",
-                password: "Julien67800*",
+                email: "tristangrandjean3@gmail.com",
+                password: "Titouandu88*",
                 role: "ROLE_ADMIN"
             }
         ];

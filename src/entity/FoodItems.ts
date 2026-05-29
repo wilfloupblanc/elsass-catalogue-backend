@@ -19,7 +19,9 @@ export class FoodItems extends Entity<FoodItems> {
   @Column({ type: "varchar", size: 2, nullable: true })
   country_code: string | null = null
   @Column({ type: "float", nullable: true })
-  price: number | null = null
+  price_normal: number | null = null
+  @Column({ type: "float", nullable: true })
+  price_member: number | null = null
   @Column({ type: "bool" })
   is_active: boolean = true
   @Column({ type: "timestamp" })

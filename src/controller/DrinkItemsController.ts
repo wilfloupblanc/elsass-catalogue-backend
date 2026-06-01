@@ -1,5 +1,6 @@
-import { Controller, Delete, Get, Post, Put, Route } from "@lyra-js/core"
+import { Controller, Delete, Get, isAuthenticated, Post, Put, Route } from "@lyra-js/core"
 import { DrinkItems } from "@entity/DrinkItems"
+import { FoodItems } from "@entity/FoodItems"
 @Route({ path: "/drinkItems" })
 export class DrinkItemsController extends Controller {
   @Get({ path: "/" })
@@ -30,6 +31,19 @@ export class DrinkItemsController extends Controller {
       return this.next(error)
     }
   }
+
+  @Put({ path: "/:drinkitems/toggle", resolve: { drinkitems: DrinkItems }, middlewares: [isAuthenticated] })
+  async toggle(drinkitems: DrinkItems) {
+    try {
+      if (!drinkitems) return this.res.status(404).json({ message: "Drink items not found" })
+      drinkitems.is_active = !drinkitems.is_active
+      await this.drinkItemsRepository.save(drinkitems)
+      return this.res.status(200).json({ message: "Drink items toggled successfully", drinkitems })
+    } catch (error) {
+      return this.next(error)
+    }
+  }
+
   @Put({ path: "/:drinkitems", resolve: { drinkitems: DrinkItems } })
   async update(drinkitems: DrinkItems) {
     try {

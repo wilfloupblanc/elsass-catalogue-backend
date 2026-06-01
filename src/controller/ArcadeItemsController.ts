@@ -1,5 +1,6 @@
-import { Controller, Delete, Get, Post, Put, Route } from "@lyra-js/core"
+import { Controller, Delete, Get, isAuthenticated, Post, Put, Route } from "@lyra-js/core"
 import { ArcadeItems } from "@entity/ArcadeItems"
+import { DrinkItems } from "@entity/DrinkItems"
 @Route({ path: "/arcadeItems" })
 export class ArcadeItemsController extends Controller {
   @Get({ path: "/" })
@@ -26,6 +27,17 @@ export class ArcadeItemsController extends Controller {
       const data = this.req.body
       const arcadeitems = await this.arcadeItemsRepository.save(data)
       return this.res.status(201).json({ message: "ArcadeItems created successfully", arcadeitems })
+    } catch (error) {
+      return this.next(error)
+    }
+  }
+  @Put({ path: "/:arcadeitems/toggle", resolve: { arcadeitems: ArcadeItems }, middlewares: [isAuthenticated] })
+  async toggle(arcadeitems: ArcadeItems) {
+    try {
+      if (!arcadeitems) return this.res.status(404).json({ message: "Arcade items not found" })
+      arcadeitems.is_active = !arcadeitems.is_active
+      await this.drinkItemsRepository.save(arcadeitems)
+      return this.res.status(200).json({ message: "Arcade items toggled successfully", arcadeitems })
     } catch (error) {
       return this.next(error)
     }

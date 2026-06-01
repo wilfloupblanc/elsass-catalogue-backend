@@ -487,3 +487,293 @@
 [2026-05-28T09:13:39.454Z] [SUCCESS] [2026-05-28T09:13:39.445Z] GET /api/drinkCategories/ ➞ OK 200 (9ms)
 [2026-05-28T09:13:39.455Z] [SUCCESS] [2026-05-28T09:13:39.447Z] GET /api/drinkItems/ ➞ OK 200 (8ms)
 [2026-05-28T09:13:40.276Z] [SUCCESS] [2026-05-28T09:13:40.271Z] GET /api/uploads/5844576475e97feed6361f47d3eff045.jpg ➞ OK 200 (5ms)
+[2026-06-01T08:43:05.722Z] [SUCCESS] [2026-06-01T08:43:05.715Z] OPTIONS /api/auth/user ➞ NO_CONTENT 204 (7ms)
+[2026-06-01T08:43:05.727Z] [ERROR] [2026-06-01T08:43:05.727Z] OPTIONS /api/auth/user - undefined - Cannot set headers after they are sent to the client | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:43:05.744Z] [ERROR] [2026-06-01T08:43:05.744Z] GET /api/auth/user - 401 - Unauthorized | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:43:05.749Z] [WARN] [2026-06-01T08:43:05.729Z] GET /api/auth/user ➞ UNAUTHORIZED 401 (19ms)
+[2026-06-01T08:43:05.822Z] [ERROR] [2026-06-01T08:43:05.822Z] GET /api/auth/user - 401 - Unauthorized | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:43:05.824Z] [WARN] [2026-06-01T08:43:05.818Z] GET /api/auth/user ➞ UNAUTHORIZED 401 (6ms)
+[2026-06-01T08:43:13.637Z] [SUCCESS] [2026-06-01T08:43:13.635Z] OPTIONS /api/auth/user ➞ NO_CONTENT 204 (2ms)
+[2026-06-01T08:43:13.637Z] [ERROR] [2026-06-01T08:43:13.637Z] OPTIONS /api/auth/user - undefined - Cannot set headers after they are sent to the client | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:43:13.643Z] [ERROR] [2026-06-01T08:43:13.643Z] GET /api/auth/user - 401 - Unauthorized | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:43:13.644Z] [WARN] [2026-06-01T08:43:13.640Z] GET /api/auth/user ➞ UNAUTHORIZED 401 (4ms)
+[2026-06-01T08:43:13.691Z] [ERROR] [2026-06-01T08:43:13.691Z] GET /api/auth/user - 401 - Unauthorized | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:43:13.692Z] [WARN] [2026-06-01T08:43:13.687Z] GET /api/auth/user ➞ UNAUTHORIZED 401 (5ms)
+[2026-06-01T08:43:14.909Z] [SUCCESS] [2026-06-01T08:43:14.906Z] OPTIONS /api/auth/sign-in ➞ NO_CONTENT 204 (3ms)
+[2026-06-01T08:43:14.910Z] [ERROR] [2026-06-01T08:43:14.910Z] OPTIONS /api/auth/sign-in - undefined - Cannot set headers after they are sent to the client | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:43:14.953Z] [ERROR] [2026-06-01T08:43:14.952Z] POST /api/auth/sign-in - undefined - connect ECONNREFUSED 127.0.0.1:3306 | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:43:14.955Z] [ERROR] [2026-06-01T08:43:14.915Z] POST /api/auth/sign-in ➞ INTERNAL_SERVER_ERROR 500 (40ms)
+[2026-06-01T08:43:34.008Z] [SUCCESS] [2026-06-01T08:43:34.002Z] OPTIONS /api/auth/sign-in ➞ NO_CONTENT 204 (6ms)
+[2026-06-01T08:43:34.009Z] [ERROR] [2026-06-01T08:43:34.009Z] OPTIONS /api/auth/sign-in - undefined - Cannot set headers after they are sent to the client | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:43:34.021Z] [ERROR] [2026-06-01T08:43:34.021Z] POST /api/auth/sign-in - undefined - connect ECONNREFUSED 127.0.0.1:3306 | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:43:34.023Z] [ERROR] [2026-06-01T08:43:34.015Z] POST /api/auth/sign-in ➞ INTERNAL_SERVER_ERROR 500 (8ms)
+[2026-06-01T08:44:37.609Z] [SUCCESS] [2026-06-01T08:44:37.591Z] OPTIONS /api/auth/sign-in ➞ NO_CONTENT 204 (18ms)
+[2026-06-01T08:44:37.614Z] [ERROR] [2026-06-01T08:44:37.614Z] OPTIONS /api/auth/sign-in - undefined - Cannot set headers after they are sent to the client | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:44:37.812Z] [SUCCESS] [2026-06-01T08:44:37.618Z] POST /api/auth/sign-in ➞ OK 200 (194ms)
+[2026-06-01T08:44:37.836Z] [SUCCESS] [2026-06-01T08:44:37.834Z] OPTIONS /api/auth/user ➞ NO_CONTENT 204 (2ms)
+[2026-06-01T08:44:37.836Z] [ERROR] [2026-06-01T08:44:37.836Z] OPTIONS /api/auth/user - undefined - Cannot set headers after they are sent to the client | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:44:37.844Z] [SUCCESS] [2026-06-01T08:44:37.840Z] GET /api/auth/user ➞ OK 200 (4ms)
+[2026-06-01T08:44:37.936Z] [SUCCESS] [2026-06-01T08:44:37.933Z] OPTIONS /api/vehicleCategories/ ➞ NO_CONTENT 204 (3ms)
+[2026-06-01T08:44:37.937Z] [ERROR] [2026-06-01T08:44:37.937Z] OPTIONS /api/vehicleCategories/ - undefined - Cannot set headers after they are sent to the client | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:44:37.943Z] [SUCCESS] [2026-06-01T08:44:37.939Z] OPTIONS /api/vehicles/ ➞ NO_CONTENT 204 (4ms)
+[2026-06-01T08:44:37.944Z] [ERROR] [2026-06-01T08:44:37.943Z] OPTIONS /api/vehicles/ - undefined - Cannot set headers after they are sent to the client | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:44:37.952Z] [SUCCESS] [2026-06-01T08:44:37.949Z] OPTIONS /api/circuits/ ➞ NO_CONTENT 204 (3ms)
+[2026-06-01T08:44:37.953Z] [ERROR] [2026-06-01T08:44:37.953Z] OPTIONS /api/circuits/ - undefined - Cannot set headers after they are sent to the client | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:44:37.966Z] [SUCCESS] [2026-06-01T08:44:37.945Z] GET /api/vehicleCategories/ ➞ OK 200 (21ms)
+[2026-06-01T08:44:37.994Z] [SUCCESS] [2026-06-01T08:44:37.967Z] GET /api/circuits/ ➞ OK 200 (27ms)
+[2026-06-01T08:44:38.004Z] [SUCCESS] [2026-06-01T08:44:37.960Z] GET /api/vehicles/ ➞ OK 200 (44ms)
+[2026-06-01T08:44:41.190Z] [SUCCESS] [2026-06-01T08:44:41.185Z] OPTIONS /api/foodItems/ ➞ NO_CONTENT 204 (5ms)
+[2026-06-01T08:44:41.191Z] [ERROR] [2026-06-01T08:44:41.191Z] OPTIONS /api/foodItems/ - undefined - Cannot set headers after they are sent to the client | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:44:41.198Z] [SUCCESS] [2026-06-01T08:44:41.194Z] OPTIONS /api/foodCategories/ ➞ NO_CONTENT 204 (4ms)
+[2026-06-01T08:44:41.199Z] [ERROR] [2026-06-01T08:44:41.199Z] OPTIONS /api/foodCategories/ - undefined - Cannot set headers after they are sent to the client | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:44:41.222Z] [SUCCESS] [2026-06-01T08:44:41.201Z] GET /api/foodItems/ ➞ OK 200 (21ms)
+[2026-06-01T08:44:41.226Z] [SUCCESS] [2026-06-01T08:44:41.206Z] GET /api/foodCategories/ ➞ OK 200 (20ms)
+[2026-06-01T08:44:41.273Z] [SUCCESS] [2026-06-01T08:44:41.252Z] GET /api/uploads/09ffbbc9f7585058b95fbfad3b536ba3.jpg ➞ OK 200 (21ms)
+[2026-06-01T08:44:43.424Z] [SUCCESS] [2026-06-01T08:44:43.418Z] OPTIONS /api/foodItems/1/toggle ➞ NO_CONTENT 204 (6ms)
+[2026-06-01T08:44:43.425Z] [ERROR] [2026-06-01T08:44:43.425Z] OPTIONS /api/foodItems/1/toggle - undefined - Cannot set headers after they are sent to the client | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:44:43.473Z] [ERROR] [2026-06-01T08:44:43.473Z] PUT /api/foodItems/1/toggle - undefined - Unknown column 'price_normal' in 'field list' | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:44:43.475Z] [ERROR] [2026-06-01T08:44:43.430Z] PUT /api/foodItems/1/toggle ➞ INTERNAL_SERVER_ERROR 500 (45ms)
+[2026-06-01T08:44:43.504Z] [SUCCESS] [2026-06-01T08:44:43.489Z] GET /api/foodItems/ ➞ OK 200 (15ms)
+[2026-06-01T08:44:44.948Z] [SUCCESS] [2026-06-01T08:44:44.944Z] OPTIONS /api/auth/user ➞ NO_CONTENT 204 (3ms)
+[2026-06-01T08:44:44.948Z] [ERROR] [2026-06-01T08:44:44.948Z] OPTIONS /api/auth/user - undefined - Cannot set headers after they are sent to the client | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:44:44.967Z] [SUCCESS] [2026-06-01T08:44:44.953Z] GET /api/auth/user ➞ OK 200 (14ms)
+[2026-06-01T08:44:45.051Z] [SUCCESS] [2026-06-01T08:44:45.028Z] GET /api/foodItems/ ➞ OK 200 (23ms)
+[2026-06-01T08:44:45.053Z] [SUCCESS] [2026-06-01T08:44:45.031Z] GET /api/foodCategories/ ➞ OK 200 (22ms)
+[2026-06-01T08:44:45.088Z] [SUCCESS] [2026-06-01T08:44:45.076Z] GET /api/uploads/09ffbbc9f7585058b95fbfad3b536ba3.jpg ➞ OK 200 (12ms)
+[2026-06-01T08:45:23.403Z] [SUCCESS] [2026-06-01T08:45:23.393Z] OPTIONS /api/auth/user ➞ NO_CONTENT 204 (9ms)
+[2026-06-01T08:45:23.405Z] [ERROR] [2026-06-01T08:45:23.405Z] OPTIONS /api/auth/user - undefined - Cannot set headers after they are sent to the client | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:45:23.459Z] [SUCCESS] [2026-06-01T08:45:23.407Z] GET /api/auth/user ➞ OK 200 (51ms)
+[2026-06-01T08:45:23.495Z] [SUCCESS] [2026-06-01T08:45:23.491Z] OPTIONS /api/foodItems/ ➞ NO_CONTENT 204 (4ms)
+[2026-06-01T08:45:23.496Z] [ERROR] [2026-06-01T08:45:23.496Z] OPTIONS /api/foodItems/ - undefined - Cannot set headers after they are sent to the client | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:45:23.500Z] [SUCCESS] [2026-06-01T08:45:23.497Z] OPTIONS /api/foodCategories/ ➞ NO_CONTENT 204 (3ms)
+[2026-06-01T08:45:23.500Z] [ERROR] [2026-06-01T08:45:23.500Z] OPTIONS /api/foodCategories/ - undefined - Cannot set headers after they are sent to the client | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:45:23.517Z] [SUCCESS] [2026-06-01T08:45:23.502Z] GET /api/foodItems/ ➞ OK 200 (15ms)
+[2026-06-01T08:45:23.529Z] [SUCCESS] [2026-06-01T08:45:23.505Z] GET /api/foodCategories/ ➞ OK 200 (24ms)
+[2026-06-01T08:45:23.555Z] [SUCCESS] [2026-06-01T08:45:23.540Z] GET /api/uploads/09ffbbc9f7585058b95fbfad3b536ba3.jpg ➞ OK 200 (14ms)
+[2026-06-01T08:45:24.393Z] [SUCCESS] [2026-06-01T08:45:24.389Z] OPTIONS /api/foodItems/1/toggle ➞ NO_CONTENT 204 (3ms)
+[2026-06-01T08:45:24.393Z] [ERROR] [2026-06-01T08:45:24.393Z] OPTIONS /api/foodItems/1/toggle - undefined - Cannot set headers after they are sent to the client | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:45:24.407Z] [WARN] [2026-06-01T08:45:24.397Z] PUT /api/foodItems/1/toggle ➞ NOT_FOUND 404 (10ms)
+[2026-06-01T08:45:24.437Z] [SUCCESS] [2026-06-01T08:45:24.422Z] GET /api/foodItems/ ➞ OK 200 (14ms)
+[2026-06-01T08:45:25.807Z] [SUCCESS] [2026-06-01T08:45:25.793Z] GET /api/auth/user ➞ OK 200 (14ms)
+[2026-06-01T08:45:25.873Z] [SUCCESS] [2026-06-01T08:45:25.854Z] GET /api/foodItems/ ➞ OK 200 (19ms)
+[2026-06-01T08:45:25.875Z] [SUCCESS] [2026-06-01T08:45:25.859Z] GET /api/foodCategories/ ➞ OK 200 (16ms)
+[2026-06-01T08:45:25.920Z] [SUCCESS] [2026-06-01T08:45:25.904Z] GET /api/uploads/09ffbbc9f7585058b95fbfad3b536ba3.jpg ➞ OK 200 (16ms)
+[2026-06-01T08:45:32.979Z] [SUCCESS] [2026-06-01T08:45:32.973Z] OPTIONS /api/foodItems/1/toggle ➞ NO_CONTENT 204 (6ms)
+[2026-06-01T08:45:32.981Z] [ERROR] [2026-06-01T08:45:32.981Z] OPTIONS /api/foodItems/1/toggle - undefined - Cannot set headers after they are sent to the client | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:45:32.999Z] [WARN] [2026-06-01T08:45:32.986Z] PUT /api/foodItems/1/toggle ➞ NOT_FOUND 404 (13ms)
+[2026-06-01T08:45:33.019Z] [SUCCESS] [2026-06-01T08:45:33.013Z] OPTIONS /api/foodItems/ ➞ NO_CONTENT 204 (6ms)
+[2026-06-01T08:45:33.020Z] [ERROR] [2026-06-01T08:45:33.019Z] OPTIONS /api/foodItems/ - undefined - Cannot set headers after they are sent to the client | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:45:33.040Z] [SUCCESS] [2026-06-01T08:45:33.024Z] GET /api/foodItems/ ➞ OK 200 (16ms)
+[2026-06-01T08:45:41.170Z] [SUCCESS] [2026-06-01T08:45:41.167Z] OPTIONS /api/auth/user ➞ NO_CONTENT 204 (3ms)
+[2026-06-01T08:45:41.170Z] [ERROR] [2026-06-01T08:45:41.170Z] OPTIONS /api/auth/user - undefined - Cannot set headers after they are sent to the client | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:45:41.180Z] [SUCCESS] [2026-06-01T08:45:41.174Z] GET /api/auth/user ➞ OK 200 (6ms)
+[2026-06-01T08:45:41.232Z] [SUCCESS] [2026-06-01T08:45:41.230Z] OPTIONS /api/foodItems/ ➞ NO_CONTENT 204 (2ms)
+[2026-06-01T08:45:41.233Z] [ERROR] [2026-06-01T08:45:41.233Z] OPTIONS /api/foodItems/ - undefined - Cannot set headers after they are sent to the client | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:45:41.237Z] [SUCCESS] [2026-06-01T08:45:41.235Z] OPTIONS /api/foodCategories/ ➞ NO_CONTENT 204 (2ms)
+[2026-06-01T08:45:41.238Z] [ERROR] [2026-06-01T08:45:41.238Z] OPTIONS /api/foodCategories/ - undefined - Cannot set headers after they are sent to the client | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:45:41.253Z] [SUCCESS] [2026-06-01T08:45:41.239Z] GET /api/foodItems/ ➞ OK 200 (14ms)
+[2026-06-01T08:45:41.254Z] [SUCCESS] [2026-06-01T08:45:41.243Z] GET /api/foodCategories/ ➞ OK 200 (11ms)
+[2026-06-01T08:45:41.305Z] [SUCCESS] [2026-06-01T08:45:41.292Z] GET /api/uploads/09ffbbc9f7585058b95fbfad3b536ba3.jpg ➞ OK 200 (13ms)
+[2026-06-01T08:45:43.976Z] [SUCCESS] [2026-06-01T08:45:43.972Z] OPTIONS /api/foodItems/1/toggle ➞ NO_CONTENT 204 (4ms)
+[2026-06-01T08:45:43.977Z] [ERROR] [2026-06-01T08:45:43.977Z] OPTIONS /api/foodItems/1/toggle - undefined - Cannot set headers after they are sent to the client | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:45:43.993Z] [WARN] [2026-06-01T08:45:43.981Z] PUT /api/foodItems/1/toggle ➞ NOT_FOUND 404 (12ms)
+[2026-06-01T08:45:44.030Z] [SUCCESS] [2026-06-01T08:45:44.008Z] GET /api/foodItems/ ➞ OK 200 (22ms)
+[2026-06-01T08:48:47.742Z] [SUCCESS] [2026-06-01T08:48:47.740Z] OPTIONS /api/auth/user ➞ NO_CONTENT 204 (2ms)
+[2026-06-01T08:48:47.742Z] [ERROR] [2026-06-01T08:48:47.742Z] OPTIONS /api/auth/user - undefined - Cannot set headers after they are sent to the client | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:48:47.753Z] [SUCCESS] [2026-06-01T08:48:47.745Z] GET /api/auth/user ➞ OK 200 (8ms)
+[2026-06-01T08:48:47.824Z] [SUCCESS] [2026-06-01T08:48:47.822Z] OPTIONS /api/vehicleCategories/ ➞ NO_CONTENT 204 (2ms)
+[2026-06-01T08:48:47.825Z] [ERROR] [2026-06-01T08:48:47.825Z] OPTIONS /api/vehicleCategories/ - undefined - Cannot set headers after they are sent to the client | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:48:47.829Z] [SUCCESS] [2026-06-01T08:48:47.827Z] OPTIONS /api/vehicles/ ➞ NO_CONTENT 204 (2ms)
+[2026-06-01T08:48:47.829Z] [ERROR] [2026-06-01T08:48:47.829Z] OPTIONS /api/vehicles/ - undefined - Cannot set headers after they are sent to the client | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:48:47.836Z] [SUCCESS] [2026-06-01T08:48:47.833Z] OPTIONS /api/circuits/ ➞ NO_CONTENT 204 (2ms)
+[2026-06-01T08:48:47.836Z] [ERROR] [2026-06-01T08:48:47.836Z] OPTIONS /api/circuits/ - undefined - Cannot set headers after they are sent to the client | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:48:47.845Z] [SUCCESS] [2026-06-01T08:48:47.830Z] GET /api/vehicleCategories/ ➞ OK 200 (15ms)
+[2026-06-01T08:48:47.857Z] [SUCCESS] [2026-06-01T08:48:47.841Z] GET /api/vehicles/ ➞ OK 200 (16ms)
+[2026-06-01T08:48:47.859Z] [SUCCESS] [2026-06-01T08:48:47.845Z] GET /api/circuits/ ➞ OK 200 (14ms)
+[2026-06-01T08:48:47.927Z] [WARN] [2026-06-01T08:48:47.910Z] GET /api/uploads/cbaa7f5716b2a84dfd60dcc7c91d4a29.png ➞ NOT_FOUND 404 (17ms)
+[2026-06-01T08:48:47.932Z] [WARN] [2026-06-01T08:48:47.912Z] GET /api/uploads/1b0222facc1ba9421b4602fbc65fd48b.png ➞ NOT_FOUND 404 (20ms)
+[2026-06-01T08:48:47.939Z] [WARN] [2026-06-01T08:48:47.932Z] GET /api/uploads/5d4a549d4dbbb9f21061624888ef1273.png ➞ NOT_FOUND 404 (7ms)
+[2026-06-01T08:48:47.947Z] [WARN] [2026-06-01T08:48:47.917Z] GET /api/uploads/20220c5e710e14e89102cdbf18234429.png ➞ NOT_FOUND 404 (30ms)
+[2026-06-01T08:48:47.950Z] [WARN] [2026-06-01T08:48:47.920Z] GET /api/uploads/b51bbad816b5f3cb797f61c6b618a3f2.png ➞ NOT_FOUND 404 (30ms)
+[2026-06-01T08:48:47.953Z] [WARN] [2026-06-01T08:48:47.914Z] GET /api/uploads/8d158a9542fad892dfa7a1216445b2f7.png ➞ NOT_FOUND 404 (39ms)
+[2026-06-01T08:48:52.260Z] [SUCCESS] [2026-06-01T08:48:52.252Z] OPTIONS /api/foodItems/ ➞ NO_CONTENT 204 (8ms)
+[2026-06-01T08:48:52.261Z] [ERROR] [2026-06-01T08:48:52.261Z] OPTIONS /api/foodItems/ - undefined - Cannot set headers after they are sent to the client | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:48:52.270Z] [SUCCESS] [2026-06-01T08:48:52.263Z] OPTIONS /api/foodCategories/ ➞ NO_CONTENT 204 (7ms)
+[2026-06-01T08:48:52.271Z] [ERROR] [2026-06-01T08:48:52.271Z] OPTIONS /api/foodCategories/ - undefined - Cannot set headers after they are sent to the client | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:48:52.298Z] [SUCCESS] [2026-06-01T08:48:52.273Z] GET /api/foodItems/ ➞ OK 200 (25ms)
+[2026-06-01T08:48:52.299Z] [SUCCESS] [2026-06-01T08:48:52.279Z] GET /api/foodCategories/ ➞ OK 200 (20ms)
+[2026-06-01T08:48:52.331Z] [WARN] [2026-06-01T08:48:52.318Z] GET /api/uploads/a16c832a2778252cf13a0d85bab3fdfa.PNG ➞ NOT_FOUND 404 (13ms)
+[2026-06-01T08:48:55.651Z] [SUCCESS] [2026-06-01T08:48:55.649Z] OPTIONS /api/auth/user ➞ NO_CONTENT 204 (2ms)
+[2026-06-01T08:48:55.652Z] [ERROR] [2026-06-01T08:48:55.652Z] OPTIONS /api/auth/user - undefined - Cannot set headers after they are sent to the client | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:48:55.662Z] [SUCCESS] [2026-06-01T08:48:55.655Z] GET /api/auth/user ➞ OK 200 (7ms)
+[2026-06-01T08:48:55.740Z] [SUCCESS] [2026-06-01T08:48:55.728Z] GET /api/foodItems/ ➞ OK 200 (12ms)
+[2026-06-01T08:48:55.742Z] [SUCCESS] [2026-06-01T08:48:55.730Z] GET /api/foodCategories/ ➞ OK 200 (12ms)
+[2026-06-01T08:48:55.776Z] [WARN] [2026-06-01T08:48:55.767Z] GET /api/uploads/a16c832a2778252cf13a0d85bab3fdfa.PNG ➞ NOT_FOUND 404 (9ms)
+[2026-06-01T08:48:56.500Z] [SUCCESS] [2026-06-01T08:48:56.493Z] OPTIONS /api/foodItems/1/toggle ➞ NO_CONTENT 204 (7ms)
+[2026-06-01T08:48:56.501Z] [ERROR] [2026-06-01T08:48:56.501Z] OPTIONS /api/foodItems/1/toggle - undefined - Cannot set headers after they are sent to the client | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:48:56.515Z] [WARN] [2026-06-01T08:48:56.505Z] PUT /api/foodItems/1/toggle ➞ NOT_FOUND 404 (10ms)
+[2026-06-01T08:48:56.541Z] [SUCCESS] [2026-06-01T08:48:56.526Z] GET /api/foodItems/ ➞ OK 200 (14ms)
+[2026-06-01T08:48:56.988Z] [WARN] [2026-06-01T08:48:56.975Z] PUT /api/foodItems/1/toggle ➞ NOT_FOUND 404 (13ms)
+[2026-06-01T08:48:57.013Z] [SUCCESS] [2026-06-01T08:48:57.000Z] GET /api/foodItems/ ➞ OK 200 (13ms)
+[2026-06-01T08:49:05.525Z] [SUCCESS] [2026-06-01T08:49:05.518Z] OPTIONS /api/foodItems/1/toggle ➞ NO_CONTENT 204 (7ms)
+[2026-06-01T08:49:05.526Z] [ERROR] [2026-06-01T08:49:05.526Z] OPTIONS /api/foodItems/1/toggle - undefined - Cannot set headers after they are sent to the client | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:49:05.544Z] [WARN] [2026-06-01T08:49:05.533Z] PUT /api/foodItems/1/toggle ➞ NOT_FOUND 404 (11ms)
+[2026-06-01T08:49:05.561Z] [SUCCESS] [2026-06-01T08:49:05.555Z] OPTIONS /api/foodItems/ ➞ NO_CONTENT 204 (6ms)
+[2026-06-01T08:49:05.561Z] [ERROR] [2026-06-01T08:49:05.561Z] OPTIONS /api/foodItems/ - undefined - Cannot set headers after they are sent to the client | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:49:05.585Z] [SUCCESS] [2026-06-01T08:49:05.567Z] GET /api/foodItems/ ➞ OK 200 (18ms)
+[2026-06-01T08:49:05.897Z] [WARN] [2026-06-01T08:49:05.887Z] PUT /api/foodItems/1/toggle ➞ NOT_FOUND 404 (10ms)
+[2026-06-01T08:49:05.925Z] [SUCCESS] [2026-06-01T08:49:05.910Z] GET /api/foodItems/ ➞ OK 200 (15ms)
+[2026-06-01T08:50:30.799Z] [SUCCESS] [2026-06-01T08:50:30.793Z] OPTIONS /api/auth/user ➞ NO_CONTENT 204 (5ms)
+[2026-06-01T08:50:30.800Z] [ERROR] [2026-06-01T08:50:30.800Z] OPTIONS /api/auth/user - undefined - Cannot set headers after they are sent to the client | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:50:30.850Z] [SUCCESS] [2026-06-01T08:50:30.804Z] GET /api/auth/user ➞ OK 200 (46ms)
+[2026-06-01T08:50:30.921Z] [SUCCESS] [2026-06-01T08:50:30.918Z] OPTIONS /api/vehicleCategories/ ➞ NO_CONTENT 204 (3ms)
+[2026-06-01T08:50:30.922Z] [ERROR] [2026-06-01T08:50:30.922Z] OPTIONS /api/vehicleCategories/ - undefined - Cannot set headers after they are sent to the client | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:50:30.926Z] [SUCCESS] [2026-06-01T08:50:30.924Z] OPTIONS /api/vehicles/ ➞ NO_CONTENT 204 (2ms)
+[2026-06-01T08:50:30.927Z] [ERROR] [2026-06-01T08:50:30.927Z] OPTIONS /api/vehicles/ - undefined - Cannot set headers after they are sent to the client | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:50:30.934Z] [SUCCESS] [2026-06-01T08:50:30.931Z] OPTIONS /api/circuits/ ➞ NO_CONTENT 204 (3ms)
+[2026-06-01T08:50:30.935Z] [ERROR] [2026-06-01T08:50:30.935Z] OPTIONS /api/circuits/ - undefined - Cannot set headers after they are sent to the client | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:50:30.946Z] [SUCCESS] [2026-06-01T08:50:30.928Z] GET /api/vehicleCategories/ ➞ OK 200 (18ms)
+[2026-06-01T08:50:30.967Z] [SUCCESS] [2026-06-01T08:50:30.952Z] GET /api/circuits/ ➞ OK 200 (15ms)
+[2026-06-01T08:50:30.973Z] [SUCCESS] [2026-06-01T08:50:30.941Z] GET /api/vehicles/ ➞ OK 200 (32ms)
+[2026-06-01T08:50:31.028Z] [WARN] [2026-06-01T08:50:31.013Z] GET /api/uploads/cbaa7f5716b2a84dfd60dcc7c91d4a29.png ➞ NOT_FOUND 404 (14ms)
+[2026-06-01T08:50:31.030Z] [WARN] [2026-06-01T08:50:31.017Z] GET /api/uploads/1b0222facc1ba9421b4602fbc65fd48b.png ➞ NOT_FOUND 404 (13ms)
+[2026-06-01T08:50:31.041Z] [WARN] [2026-06-01T08:50:31.031Z] GET /api/uploads/20220c5e710e14e89102cdbf18234429.png ➞ NOT_FOUND 404 (10ms)
+[2026-06-01T08:50:31.047Z] [WARN] [2026-06-01T08:50:31.035Z] GET /api/uploads/b51bbad816b5f3cb797f61c6b618a3f2.png ➞ NOT_FOUND 404 (12ms)
+[2026-06-01T08:50:31.052Z] [WARN] [2026-06-01T08:50:31.041Z] GET /api/uploads/5d4a549d4dbbb9f21061624888ef1273.png ➞ NOT_FOUND 404 (11ms)
+[2026-06-01T08:50:31.057Z] [WARN] [2026-06-01T08:50:31.020Z] GET /api/uploads/8d158a9542fad892dfa7a1216445b2f7.png ➞ NOT_FOUND 404 (36ms)
+[2026-06-01T08:50:34.496Z] [SUCCESS] [2026-06-01T08:50:34.490Z] OPTIONS /api/foodItems/ ➞ NO_CONTENT 204 (5ms)
+[2026-06-01T08:50:34.497Z] [ERROR] [2026-06-01T08:50:34.496Z] OPTIONS /api/foodItems/ - undefined - Cannot set headers after they are sent to the client | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:50:34.504Z] [SUCCESS] [2026-06-01T08:50:34.499Z] OPTIONS /api/foodCategories/ ➞ NO_CONTENT 204 (5ms)
+[2026-06-01T08:50:34.505Z] [ERROR] [2026-06-01T08:50:34.505Z] OPTIONS /api/foodCategories/ - undefined - Cannot set headers after they are sent to the client | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:50:34.526Z] [SUCCESS] [2026-06-01T08:50:34.507Z] GET /api/foodItems/ ➞ OK 200 (19ms)
+[2026-06-01T08:50:34.529Z] [SUCCESS] [2026-06-01T08:50:34.511Z] GET /api/foodCategories/ ➞ OK 200 (17ms)
+[2026-06-01T08:50:34.549Z] [WARN] [2026-06-01T08:50:34.538Z] GET /api/uploads/a16c832a2778252cf13a0d85bab3fdfa.PNG ➞ NOT_FOUND 404 (11ms)
+[2026-06-01T08:50:35.868Z] [SUCCESS] [2026-06-01T08:50:35.865Z] OPTIONS /api/foodItems/1/toggle ➞ NO_CONTENT 204 (3ms)
+[2026-06-01T08:50:35.869Z] [ERROR] [2026-06-01T08:50:35.869Z] OPTIONS /api/foodItems/1/toggle - undefined - Cannot set headers after they are sent to the client | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:50:35.915Z] [SUCCESS] [2026-06-01T08:50:35.873Z] PUT /api/foodItems/1/toggle ➞ OK 200 (41ms)
+[2026-06-01T08:50:35.939Z] [SUCCESS] [2026-06-01T08:50:35.926Z] GET /api/foodItems/ ➞ OK 200 (13ms)
+[2026-06-01T08:50:36.305Z] [SUCCESS] [2026-06-01T08:50:36.267Z] PUT /api/foodItems/1/toggle ➞ OK 200 (38ms)
+[2026-06-01T08:50:36.331Z] [SUCCESS] [2026-06-01T08:50:36.316Z] GET /api/foodItems/ ➞ OK 200 (15ms)
+[2026-06-01T08:50:37.572Z] [SUCCESS] [2026-06-01T08:50:37.531Z] PUT /api/foodItems/1/toggle ➞ OK 200 (41ms)
+[2026-06-01T08:50:37.598Z] [SUCCESS] [2026-06-01T08:50:37.585Z] GET /api/foodItems/ ➞ OK 200 (13ms)
+[2026-06-01T08:50:39.476Z] [SUCCESS] [2026-06-01T08:50:39.473Z] OPTIONS /api/auth/user ➞ NO_CONTENT 204 (2ms)
+[2026-06-01T08:50:39.476Z] [ERROR] [2026-06-01T08:50:39.476Z] OPTIONS /api/auth/user - undefined - Cannot set headers after they are sent to the client | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:50:39.490Z] [SUCCESS] [2026-06-01T08:50:39.482Z] GET /api/auth/user ➞ OK 200 (8ms)
+[2026-06-01T08:50:39.550Z] [SUCCESS] [2026-06-01T08:50:39.549Z] OPTIONS /api/foodItems/ ➞ NO_CONTENT 204 (1ms)
+[2026-06-01T08:50:39.551Z] [ERROR] [2026-06-01T08:50:39.551Z] OPTIONS /api/foodItems/ - undefined - Cannot set headers after they are sent to the client | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:50:39.553Z] [SUCCESS] [2026-06-01T08:50:39.552Z] OPTIONS /api/foodCategories/ ➞ NO_CONTENT 204 (1ms)
+[2026-06-01T08:50:39.554Z] [ERROR] [2026-06-01T08:50:39.554Z] OPTIONS /api/foodCategories/ - undefined - Cannot set headers after they are sent to the client | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:50:39.572Z] [SUCCESS] [2026-06-01T08:50:39.559Z] GET /api/foodItems/ ➞ OK 200 (13ms)
+[2026-06-01T08:50:39.577Z] [SUCCESS] [2026-06-01T08:50:39.561Z] GET /api/foodCategories/ ➞ OK 200 (16ms)
+[2026-06-01T08:50:39.606Z] [WARN] [2026-06-01T08:50:39.599Z] GET /api/uploads/a16c832a2778252cf13a0d85bab3fdfa.PNG ➞ NOT_FOUND 404 (7ms)
+[2026-06-01T08:50:40.475Z] [SUCCESS] [2026-06-01T08:50:40.442Z] PUT /api/foodItems/1/toggle ➞ OK 200 (32ms)
+[2026-06-01T08:50:40.499Z] [SUCCESS] [2026-06-01T08:50:40.488Z] GET /api/foodItems/ ➞ OK 200 (10ms)
+[2026-06-01T08:50:41.469Z] [SUCCESS] [2026-06-01T08:50:41.458Z] GET /api/auth/user ➞ OK 200 (11ms)
+[2026-06-01T08:50:41.530Z] [SUCCESS] [2026-06-01T08:50:41.519Z] GET /api/foodItems/ ➞ OK 200 (11ms)
+[2026-06-01T08:50:41.533Z] [SUCCESS] [2026-06-01T08:50:41.522Z] GET /api/foodCategories/ ➞ OK 200 (11ms)
+[2026-06-01T08:50:41.563Z] [WARN] [2026-06-01T08:50:41.551Z] GET /api/uploads/a16c832a2778252cf13a0d85bab3fdfa.PNG ➞ NOT_FOUND 404 (12ms)
+[2026-06-01T08:50:49.214Z] [SUCCESS] [2026-06-01T08:50:49.210Z] OPTIONS /api/foodItems/1/toggle ➞ NO_CONTENT 204 (4ms)
+[2026-06-01T08:50:49.215Z] [ERROR] [2026-06-01T08:50:49.215Z] OPTIONS /api/foodItems/1/toggle - undefined - Cannot set headers after they are sent to the client | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:50:49.251Z] [SUCCESS] [2026-06-01T08:50:49.219Z] PUT /api/foodItems/1/toggle ➞ OK 200 (32ms)
+[2026-06-01T08:50:49.269Z] [SUCCESS] [2026-06-01T08:50:49.264Z] OPTIONS /api/foodItems/ ➞ NO_CONTENT 204 (5ms)
+[2026-06-01T08:50:49.270Z] [ERROR] [2026-06-01T08:50:49.270Z] OPTIONS /api/foodItems/ - undefined - Cannot set headers after they are sent to the client | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:50:49.290Z] [SUCCESS] [2026-06-01T08:50:49.274Z] GET /api/foodItems/ ➞ OK 200 (16ms)
+[2026-06-01T08:50:50.364Z] [SUCCESS] [2026-06-01T08:50:50.362Z] OPTIONS /api/auth/user ➞ NO_CONTENT 204 (2ms)
+[2026-06-01T08:50:50.364Z] [ERROR] [2026-06-01T08:50:50.364Z] OPTIONS /api/auth/user - undefined - Cannot set headers after they are sent to the client | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:50:50.376Z] [SUCCESS] [2026-06-01T08:50:50.367Z] GET /api/auth/user ➞ OK 200 (8ms)
+[2026-06-01T08:50:50.428Z] [SUCCESS] [2026-06-01T08:50:50.425Z] OPTIONS /api/foodCategories/ ➞ NO_CONTENT 204 (3ms)
+[2026-06-01T08:50:50.428Z] [ERROR] [2026-06-01T08:50:50.428Z] OPTIONS /api/foodCategories/ - undefined - Cannot set headers after they are sent to the client | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:50:50.439Z] [SUCCESS] [2026-06-01T08:50:50.423Z] GET /api/foodItems/ ➞ OK 200 (16ms)
+[2026-06-01T08:50:50.452Z] [SUCCESS] [2026-06-01T08:50:50.440Z] GET /api/foodCategories/ ➞ OK 200 (12ms)
+[2026-06-01T08:50:50.481Z] [WARN] [2026-06-01T08:50:50.473Z] GET /api/uploads/a16c832a2778252cf13a0d85bab3fdfa.PNG ➞ NOT_FOUND 404 (8ms)
+[2026-06-01T08:50:53.431Z] [SUCCESS] [2026-06-01T08:50:53.401Z] PUT /api/foodItems/1/toggle ➞ OK 200 (30ms)
+[2026-06-01T08:50:53.458Z] [SUCCESS] [2026-06-01T08:50:53.447Z] GET /api/foodItems/ ➞ OK 200 (11ms)
+[2026-06-01T08:50:54.835Z] [SUCCESS] [2026-06-01T08:50:54.831Z] GET /api/auth/user ➞ OK 200 (4ms)
+[2026-06-01T08:50:54.918Z] [SUCCESS] [2026-06-01T08:50:54.916Z] OPTIONS /api/foodItems/ ➞ NO_CONTENT 204 (2ms)
+[2026-06-01T08:50:54.919Z] [ERROR] [2026-06-01T08:50:54.919Z] OPTIONS /api/foodItems/ - undefined - Cannot set headers after they are sent to the client | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:50:54.935Z] [SUCCESS] [2026-06-01T08:50:54.919Z] GET /api/foodCategories/ ➞ OK 200 (16ms)
+[2026-06-01T08:50:54.939Z] [SUCCESS] [2026-06-01T08:50:54.923Z] GET /api/foodItems/ ➞ OK 200 (16ms)
+[2026-06-01T08:50:54.988Z] [WARN] [2026-06-01T08:50:54.979Z] GET /api/uploads/a16c832a2778252cf13a0d85bab3fdfa.PNG ➞ NOT_FOUND 404 (8ms)
+[2026-06-01T08:52:04.135Z] [SUCCESS] [2026-06-01T08:52:04.134Z] OPTIONS /api/auth/user ➞ NO_CONTENT 204 (1ms)
+[2026-06-01T08:52:04.135Z] [ERROR] [2026-06-01T08:52:04.135Z] OPTIONS /api/auth/user - undefined - Cannot set headers after they are sent to the client | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:52:04.141Z] [SUCCESS] [2026-06-01T08:52:04.138Z] GET /api/auth/user ➞ OK 200 (3ms)
+[2026-06-01T08:52:04.204Z] [SUCCESS] [2026-06-01T08:52:04.203Z] OPTIONS /api/vehicleCategories/ ➞ NO_CONTENT 204 (1ms)
+[2026-06-01T08:52:04.204Z] [ERROR] [2026-06-01T08:52:04.204Z] OPTIONS /api/vehicleCategories/ - undefined - Cannot set headers after they are sent to the client | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:52:04.205Z] [SUCCESS] [2026-06-01T08:52:04.205Z] OPTIONS /api/vehicles/ ➞ NO_CONTENT 204 (0ms)
+[2026-06-01T08:52:04.206Z] [ERROR] [2026-06-01T08:52:04.206Z] OPTIONS /api/vehicles/ - undefined - Cannot set headers after they are sent to the client | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:52:04.209Z] [SUCCESS] [2026-06-01T08:52:04.208Z] OPTIONS /api/circuits/ ➞ NO_CONTENT 204 (1ms)
+[2026-06-01T08:52:04.209Z] [ERROR] [2026-06-01T08:52:04.209Z] OPTIONS /api/circuits/ - undefined - Cannot set headers after they are sent to the client | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:52:04.215Z] [SUCCESS] [2026-06-01T08:52:04.206Z] GET /api/vehicleCategories/ ➞ OK 200 (9ms)
+[2026-06-01T08:52:04.223Z] [SUCCESS] [2026-06-01T08:52:04.212Z] GET /api/vehicles/ ➞ OK 200 (11ms)
+[2026-06-01T08:52:04.223Z] [SUCCESS] [2026-06-01T08:52:04.213Z] GET /api/circuits/ ➞ OK 200 (10ms)
+[2026-06-01T08:52:04.288Z] [WARN] [2026-06-01T08:52:04.274Z] GET /api/uploads/cbaa7f5716b2a84dfd60dcc7c91d4a29.png ➞ NOT_FOUND 404 (14ms)
+[2026-06-01T08:52:04.290Z] [WARN] [2026-06-01T08:52:04.276Z] GET /api/uploads/1b0222facc1ba9421b4602fbc65fd48b.png ➞ NOT_FOUND 404 (14ms)
+[2026-06-01T08:52:04.292Z] [WARN] [2026-06-01T08:52:04.278Z] GET /api/uploads/8d158a9542fad892dfa7a1216445b2f7.png ➞ NOT_FOUND 404 (14ms)
+[2026-06-01T08:52:04.304Z] [WARN] [2026-06-01T08:52:04.284Z] GET /api/uploads/5d4a549d4dbbb9f21061624888ef1273.png ➞ NOT_FOUND 404 (20ms)
+[2026-06-01T08:52:04.307Z] [WARN] [2026-06-01T08:52:04.282Z] GET /api/uploads/b51bbad816b5f3cb797f61c6b618a3f2.png ➞ NOT_FOUND 404 (25ms)
+[2026-06-01T08:52:04.309Z] [WARN] [2026-06-01T08:52:04.280Z] GET /api/uploads/20220c5e710e14e89102cdbf18234429.png ➞ NOT_FOUND 404 (29ms)
+[2026-06-01T08:53:52.547Z] [SUCCESS] [2026-06-01T08:53:52.542Z] OPTIONS /api/auth/user ➞ NO_CONTENT 204 (4ms)
+[2026-06-01T08:53:52.549Z] [ERROR] [2026-06-01T08:53:52.549Z] OPTIONS /api/auth/user - undefined - Cannot set headers after they are sent to the client | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:53:52.576Z] [SUCCESS] [2026-06-01T08:53:52.550Z] GET /api/auth/user ➞ OK 200 (26ms)
+[2026-06-01T08:53:52.627Z] [SUCCESS] [2026-06-01T08:53:52.626Z] OPTIONS /api/vehicleCategories/ ➞ NO_CONTENT 204 (1ms)
+[2026-06-01T08:53:52.628Z] [ERROR] [2026-06-01T08:53:52.628Z] OPTIONS /api/vehicleCategories/ - undefined - Cannot set headers after they are sent to the client | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:53:52.630Z] [SUCCESS] [2026-06-01T08:53:52.628Z] OPTIONS /api/vehicles/ ➞ NO_CONTENT 204 (2ms)
+[2026-06-01T08:53:52.632Z] [SUCCESS] [2026-06-01T08:53:52.630Z] OPTIONS /api/circuits/ ➞ NO_CONTENT 204 (2ms)
+[2026-06-01T08:53:52.632Z] [ERROR] [2026-06-01T08:53:52.632Z] OPTIONS /api/vehicles/ - undefined - Cannot set headers after they are sent to the client | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:53:52.632Z] [ERROR] [2026-06-01T08:53:52.632Z] OPTIONS /api/circuits/ - undefined - Cannot set headers after they are sent to the client | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:53:52.642Z] [SUCCESS] [2026-06-01T08:53:52.633Z] GET /api/vehicleCategories/ ➞ OK 200 (9ms)
+[2026-06-01T08:53:52.658Z] [SUCCESS] [2026-06-01T08:53:52.635Z] GET /api/vehicles/ ➞ OK 200 (23ms)
+[2026-06-01T08:53:52.661Z] [SUCCESS] [2026-06-01T08:53:52.640Z] GET /api/circuits/ ➞ OK 200 (21ms)
+[2026-06-01T08:53:52.699Z] [WARN] [2026-06-01T08:53:52.685Z] GET /api/uploads/cbaa7f5716b2a84dfd60dcc7c91d4a29.png ➞ NOT_FOUND 404 (13ms)
+[2026-06-01T08:53:52.702Z] [WARN] [2026-06-01T08:53:52.687Z] GET /api/uploads/1b0222facc1ba9421b4602fbc65fd48b.png ➞ NOT_FOUND 404 (14ms)
+[2026-06-01T08:53:52.712Z] [WARN] [2026-06-01T08:53:52.689Z] GET /api/uploads/8d158a9542fad892dfa7a1216445b2f7.png ➞ NOT_FOUND 404 (23ms)
+[2026-06-01T08:53:52.715Z] [WARN] [2026-06-01T08:53:52.702Z] GET /api/uploads/5d4a549d4dbbb9f21061624888ef1273.png ➞ NOT_FOUND 404 (13ms)
+[2026-06-01T08:53:52.722Z] [WARN] [2026-06-01T08:53:52.691Z] GET /api/uploads/20220c5e710e14e89102cdbf18234429.png ➞ NOT_FOUND 404 (31ms)
+[2026-06-01T08:53:52.729Z] [WARN] [2026-06-01T08:53:52.693Z] GET /api/uploads/b51bbad816b5f3cb797f61c6b618a3f2.png ➞ NOT_FOUND 404 (35ms)
+[2026-06-01T08:53:57.807Z] [SUCCESS] [2026-06-01T08:53:57.805Z] OPTIONS /api/foodItems/ ➞ NO_CONTENT 204 (2ms)
+[2026-06-01T08:53:57.813Z] [SUCCESS] [2026-06-01T08:53:57.809Z] OPTIONS /api/foodCategories/ ➞ NO_CONTENT 204 (4ms)
+[2026-06-01T08:53:57.814Z] [ERROR] [2026-06-01T08:53:57.814Z] OPTIONS /api/foodItems/ - undefined - Cannot set headers after they are sent to the client | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:53:57.814Z] [ERROR] [2026-06-01T08:53:57.814Z] OPTIONS /api/foodCategories/ - undefined - Cannot set headers after they are sent to the client | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:53:57.836Z] [SUCCESS] [2026-06-01T08:53:57.823Z] GET /api/foodCategories/ ➞ OK 200 (13ms)
+[2026-06-01T08:53:57.838Z] [SUCCESS] [2026-06-01T08:53:57.818Z] GET /api/foodItems/ ➞ OK 200 (20ms)
+[2026-06-01T08:53:57.874Z] [WARN] [2026-06-01T08:53:57.865Z] GET /api/uploads/a16c832a2778252cf13a0d85bab3fdfa.PNG ➞ NOT_FOUND 404 (9ms)
+[2026-06-01T08:53:59.188Z] [SUCCESS] [2026-06-01T08:53:59.185Z] OPTIONS /api/drinkItems/ ➞ NO_CONTENT 204 (3ms)
+[2026-06-01T08:53:59.192Z] [SUCCESS] [2026-06-01T08:53:59.189Z] OPTIONS /api/drinkCategories/ ➞ NO_CONTENT 204 (2ms)
+[2026-06-01T08:53:59.192Z] [ERROR] [2026-06-01T08:53:59.192Z] OPTIONS /api/drinkItems/ - undefined - Cannot set headers after they are sent to the client | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:53:59.193Z] [ERROR] [2026-06-01T08:53:59.193Z] OPTIONS /api/drinkCategories/ - undefined - Cannot set headers after they are sent to the client | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:53:59.209Z] [SUCCESS] [2026-06-01T08:53:59.194Z] GET /api/drinkItems/ ➞ OK 200 (15ms)
+[2026-06-01T08:53:59.210Z] [SUCCESS] [2026-06-01T08:53:59.196Z] GET /api/drinkCategories/ ➞ OK 200 (14ms)
+[2026-06-01T08:54:32.551Z] [SUCCESS] [2026-06-01T08:54:32.548Z] OPTIONS /api/drinkCategories/ ➞ NO_CONTENT 204 (3ms)
+[2026-06-01T08:54:32.552Z] [ERROR] [2026-06-01T08:54:32.552Z] OPTIONS /api/drinkCategories/ - undefined - Cannot set headers after they are sent to the client | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:54:32.592Z] [SUCCESS] [2026-06-01T08:54:32.560Z] POST /api/drinkCategories/ ➞ CREATED 201 (32ms)
+[2026-06-01T08:54:32.617Z] [SUCCESS] [2026-06-01T08:54:32.602Z] GET /api/drinkCategories/ ➞ OK 200 (14ms)
+[2026-06-01T08:54:48.501Z] [SUCCESS] [2026-06-01T08:54:48.497Z] OPTIONS /api/drinkItems/ ➞ NO_CONTENT 204 (4ms)
+[2026-06-01T08:54:48.502Z] [ERROR] [2026-06-01T08:54:48.502Z] OPTIONS /api/drinkItems/ - undefined - Cannot set headers after they are sent to the client | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:54:48.539Z] [ERROR] [2026-06-01T08:54:48.539Z] POST /api/drinkItems/ - undefined - Incorrect FLOAT value: '' for column 'price_normal' at row 1 | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:54:48.541Z] [ERROR] [2026-06-01T08:54:48.507Z] POST /api/drinkItems/ ➞ INTERNAL_SERVER_ERROR 500 (34ms)
+[2026-06-01T08:54:48.570Z] [SUCCESS] [2026-06-01T08:54:48.552Z] GET /api/drinkItems/ ➞ OK 200 (18ms)
+[2026-06-01T08:55:21.936Z] [SUCCESS] [2026-06-01T08:55:21.931Z] OPTIONS /api/drinkItems/ ➞ NO_CONTENT 204 (5ms)
+[2026-06-01T08:55:21.937Z] [ERROR] [2026-06-01T08:55:21.937Z] OPTIONS /api/drinkItems/ - undefined - Cannot set headers after they are sent to the client | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:55:21.978Z] [SUCCESS] [2026-06-01T08:55:21.940Z] POST /api/drinkItems/ ➞ CREATED 201 (38ms)
+[2026-06-01T08:55:22.003Z] [SUCCESS] [2026-06-01T08:55:21.989Z] GET /api/drinkItems/ ➞ OK 200 (13ms)
+[2026-06-01T08:55:27.956Z] [SUCCESS] [2026-06-01T08:55:27.953Z] OPTIONS /api/auth/user ➞ NO_CONTENT 204 (3ms)
+[2026-06-01T08:55:27.957Z] [ERROR] [2026-06-01T08:55:27.957Z] OPTIONS /api/auth/user - undefined - Cannot set headers after they are sent to the client | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:55:27.974Z] [SUCCESS] [2026-06-01T08:55:27.962Z] GET /api/auth/user ➞ OK 200 (12ms)
+[2026-06-01T08:55:28.041Z] [SUCCESS] [2026-06-01T08:55:28.036Z] OPTIONS /api/drinkItems/ ➞ NO_CONTENT 204 (5ms)
+[2026-06-01T08:55:28.042Z] [ERROR] [2026-06-01T08:55:28.041Z] OPTIONS /api/drinkItems/ - undefined - Cannot set headers after they are sent to the client | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:55:28.047Z] [SUCCESS] [2026-06-01T08:55:28.043Z] OPTIONS /api/drinkCategories/ ➞ NO_CONTENT 204 (3ms)
+[2026-06-01T08:55:28.048Z] [ERROR] [2026-06-01T08:55:28.048Z] OPTIONS /api/drinkCategories/ - undefined - Cannot set headers after they are sent to the client | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:55:28.067Z] [SUCCESS] [2026-06-01T08:55:28.050Z] GET /api/drinkItems/ ➞ OK 200 (17ms)
+[2026-06-01T08:55:28.069Z] [SUCCESS] [2026-06-01T08:55:28.053Z] GET /api/drinkCategories/ ➞ OK 200 (16ms)
+[2026-06-01T08:55:28.625Z] [SUCCESS] [2026-06-01T08:55:28.620Z] OPTIONS /api/drinkItems/1/toggle ➞ NO_CONTENT 204 (5ms)
+[2026-06-01T08:55:28.626Z] [ERROR] [2026-06-01T08:55:28.625Z] OPTIONS /api/drinkItems/1/toggle - undefined - Cannot set headers after they are sent to the client | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) elsass-catalogue-admin/1.0.11 Chrome/146.0.7680.216 Electron/41.5.1 Safari/537.36 | IP: ::1
+[2026-06-01T08:55:28.673Z] [SUCCESS] [2026-06-01T08:55:28.630Z] PUT /api/drinkItems/1/toggle ➞ OK 200 (43ms)
+[2026-06-01T08:55:28.696Z] [SUCCESS] [2026-06-01T08:55:28.684Z] GET /api/drinkItems/ ➞ OK 200 (12ms)
+[2026-06-01T08:55:29.958Z] [SUCCESS] [2026-06-01T08:55:29.949Z] GET /api/auth/user ➞ OK 200 (9ms)
+[2026-06-01T08:55:30.020Z] [SUCCESS] [2026-06-01T08:55:30.006Z] GET /api/drinkItems/ ➞ OK 200 (14ms)
+[2026-06-01T08:55:30.022Z] [SUCCESS] [2026-06-01T08:55:30.009Z] GET /api/drinkCategories/ ➞ OK 200 (13ms)
+[2026-06-01T08:55:30.880Z] [SUCCESS] [2026-06-01T08:55:30.844Z] PUT /api/drinkItems/1/toggle ➞ OK 200 (36ms)
+[2026-06-01T08:55:30.904Z] [SUCCESS] [2026-06-01T08:55:30.891Z] GET /api/drinkItems/ ➞ OK 200 (13ms)
+[2026-06-01T08:55:31.710Z] [SUCCESS] [2026-06-01T08:55:31.694Z] GET /api/auth/user ➞ OK 200 (16ms)
+[2026-06-01T08:55:31.783Z] [SUCCESS] [2026-06-01T08:55:31.759Z] GET /api/drinkItems/ ➞ OK 200 (24ms)
+[2026-06-01T08:55:31.784Z] [SUCCESS] [2026-06-01T08:55:31.764Z] GET /api/drinkCategories/ ➞ OK 200 (20ms)
